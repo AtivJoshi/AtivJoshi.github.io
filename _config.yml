@@ -245,7 +245,8 @@ plugins:
   - jekyll-twitter-plugin
   - jemoji
   - terser
-  - jekyll-wikirefs
+  # - jekyll-wikirefs
+  - jekyll-wikilinks
 
 # Sitemap settings
 defaults:

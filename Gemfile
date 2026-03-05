@@ -21,7 +21,8 @@ group :jekyll_plugins do
     gem 'terser'
     gem 'unicode_utils'
     gem 'webrick'
-    gem 'jekyll-wikirefs' 
+    # gem 'jekyll-wikirefs'
+    gem "jekyll-wikilinks"
 end
 group :other_plugins do
     gem 'css_parser'
