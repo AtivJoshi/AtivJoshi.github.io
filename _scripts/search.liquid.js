@@ -294,6 +294,20 @@ ninja.data = [
         },
       },
     {%- endfor -%}
+  {%- for note in site.pages -%}
+    {%- if note.url contains '/notes/' -%}
+      {
+        {%- assign title = note.title | escape | strip -%}
+        id: "note-{{ title | slugify }}",
+        title: "{{ title | truncatewords: 13 }}",
+        description: "{{ note.description | strip_html | strip_newlines | escape | strip }}",
+        section: "Notes",
+        handler: () => {
+          window.location.href = "{{ note.url | relative_url }}";
+        },
+      },
+    {%- endif -%}
+  {%- endfor -%}
   {%- endif -%}
   {%- if site.enable_darkmode -%}
     {

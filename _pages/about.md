@@ -17,6 +17,7 @@ news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 posts: false
+search: true
 ---
 
 Hello, I'm Ativ ([अतीव](https://en.wiktionary.org/wiki/%E0%A4%85%E0%A4%A4%E0%A5%80%E0%A4%B5)), a PhD student in the [Manning CICS](https://www.cics.umass.edu/) at the [University of Massachusetts Amherst](https://en.wikipedia.org/wiki/University_of_Massachusetts_Amherst), where I am advised by [Dr. Mohammad Hajiesmaili](https://groups.cs.umass.edu/hajiesmaili/) at the [SOLAR Lab](https://solar.cs.umass.edu/).
